@@ -37,7 +37,8 @@ def get_lr(optimizer):
         return param_group['lr']
 
 def preprocess_input(image):
-    image /= 255.0
+    image -= np.array([123.675, 116.28, 103.53], np.float32)
+    image /= np.array([58.395, 57.12, 57.375], np.float32)
     return image
 
 def show_config(**kwargs):
