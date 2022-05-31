@@ -90,8 +90,8 @@ class SegFormer(nn.Module):
             'b3': [64, 128, 320, 512], 'b4': [64, 128, 320, 512], 'b5': [64, 128, 320, 512],
         }[phi]
         self.backbone   = {
-            'b0': mit_b0(), 'b1': mit_b1(), 'b2': mit_b2(),
-            'b3': mit_b3(), 'b4': mit_b4(), 'b5': mit_b5(),
+            'b0': mit_b0(pretrained), 'b1': mit_b1(pretrained), 'b2': mit_b2(pretrained),
+            'b3': mit_b3(pretrained), 'b4': mit_b4(pretrained), 'b5': mit_b5(pretrained),
         }[phi]
         self.embedding_dim   = {
             'b0': 256, 'b1': 256, 'b2': 768,
