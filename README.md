@@ -27,16 +27,17 @@ segformer | https://github.com/bubbliiiing/segformer-pytorch
 ### 性能情况
 | 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mIOU | 
 | :-----: | :-----: | :------: | :------: | :------: | 
-| VOC12+SBD | [segformer_b0_weights_voc.pth](https://github.com/bubbliiiing/segformer-pytorch/releases/download/v1.0/segformer_b0_weights_voc.pth) | VOC-Val12 | 512x512 | 73.29 | 
-| VOC12+SBD | [segformer_b1_weights_voc.pth](https://github.com/bubbliiiing/segformer-pytorch/releases/download/v1.0/segformer_b1_weights_voc.pth) | VOC-Val12 | 512x512 | 76.90 | 
+| VOC12+SBD | [segformer_b0_weights_voc.pth](https://github.com/bubbliiiing/segformer-pytorch/releases/download/v1.0/segformer_b0_weights_voc.pth) | VOC-Val12 | 512x512 | 73.34 | 
+| VOC12+SBD | [segformer_b1_weights_voc.pth](https://github.com/bubbliiiing/segformer-pytorch/releases/download/v1.0/segformer_b1_weights_voc.pth) | VOC-Val12 | 512x512 | 76.80 | 
+| VOC12+SBD | [segformer_b2_weights_voc.pth](https://github.com/bubbliiiing/segformer-pytorch/releases/download/v1.0/segformer_b2_weights_voc.pth) | VOC-Val12 | 512x512 | 80.38 | 
 
 ### 所需环境
 torch==1.2.0  
 
 ### 文件下载
 训练所需的权值可在百度网盘中下载。     
-链接: https://pan.baidu.com/s/1B7PmhcdScmV5S0SIZE-s_Q     
-提取码: 9dss        
+链接: https://pan.baidu.com/s/1tH4wdGnACtIuGOoXb0_rAw    
+提取码: tyjr      
 
 VOC拓展数据集的百度网盘如下：   
 链接: https://pan.baidu.com/s/1vkk3lMheUm6IjTXznlg7Ng    
